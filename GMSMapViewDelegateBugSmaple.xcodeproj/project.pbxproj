@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5B315520B683E4005EB50E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B315420B683E4005EB50E /* AppDelegate.swift */; };
+		8A5B315720B683E4005EB50E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B315620B683E4005EB50E /* ViewController.swift */; };
+		8A5B315A20B683E4005EB50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B315820B683E4005EB50E /* Main.storyboard */; };
+		8A5B315C20B683E9005EB50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B315B20B683E9005EB50E /* Assets.xcassets */; };
+		8A5B315F20B683E9005EB50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B315D20B683E9005EB50E /* LaunchScreen.storyboard */; };
+		8AB787BB20B685FC0032F499 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB787BA20B685FC0032F499 /* MapViewController.swift */; };
+		EC901A33EF165C9E09610853 /* Pods_GMSMapViewDelegateBugSmaple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA9F7E01510BA9B7006CCF /* Pods_GMSMapViewDelegateBugSmaple.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34A0FB7D18C7C49E27D4501F /* Pods-GMSMapViewDelegateBugSmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSMapViewDelegateBugSmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMSMapViewDelegateBugSmaple/Pods-GMSMapViewDelegateBugSmaple.release.xcconfig"; sourceTree = "<group>"; };
+		73CA9F7E01510BA9B7006CCF /* Pods_GMSMapViewDelegateBugSmaple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMSMapViewDelegateBugSmaple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD47D12D59FF41DB456CBA /* Pods-GMSMapViewDelegateBugSmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSMapViewDelegateBugSmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMSMapViewDelegateBugSmaple/Pods-GMSMapViewDelegateBugSmaple.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5B315120B683E4005EB50E /* GMSMapViewDelegateBugSmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMSMapViewDelegateBugSmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B315420B683E4005EB50E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A5B315620B683E4005EB50E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A5B315920B683E4005EB50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A5B315B20B683E9005EB50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A5B315E20B683E9005EB50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A5B316020B683E9005EB50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB787BA20B685FC0032F499 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5B314E20B683E4005EB50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC901A33EF165C9E09610853 /* Pods_GMSMapViewDelegateBugSmaple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5B314820B683E4005EB50E = {
+			isa = PBXGroup;
+			children = (
+				8A5B315320B683E4005EB50E /* GMSMapViewDelegateBugSmaple */,
+				8A5B315220B683E4005EB50E /* Products */,
+				E42013EEB9B59DDF7886E92E /* Pods */,
+				FF132A888E071D0A513D3F77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5B315220B683E4005EB50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B315120B683E4005EB50E /* GMSMapViewDelegateBugSmaple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5B315320B683E4005EB50E /* GMSMapViewDelegateBugSmaple */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B315420B683E4005EB50E /* AppDelegate.swift */,
+				8A5B315620B683E4005EB50E /* ViewController.swift */,
+				8A5B315820B683E4005EB50E /* Main.storyboard */,
+				8A5B315B20B683E9005EB50E /* Assets.xcassets */,
+				8A5B315D20B683E9005EB50E /* LaunchScreen.storyboard */,
+				8A5B316020B683E9005EB50E /* Info.plist */,
+				8AB787BA20B685FC0032F499 /* MapViewController.swift */,
+			);
+			path = GMSMapViewDelegateBugSmaple;
+			sourceTree = "<group>";
+		};
+		E42013EEB9B59DDF7886E92E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83CD47D12D59FF41DB456CBA /* Pods-GMSMapViewDelegateBugSmaple.debug.xcconfig */,
+				34A0FB7D18C7C49E27D4501F /* Pods-GMSMapViewDelegateBugSmaple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF132A888E071D0A513D3F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73CA9F7E01510BA9B7006CCF /* Pods_GMSMapViewDelegateBugSmaple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5B315020B683E4005EB50E /* GMSMapViewDelegateBugSmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5B316320B683E9005EB50E /* Build configuration list for PBXNativeTarget "GMSMapViewDelegateBugSmaple" */;
+			buildPhases = (
+				5EB7F2AC2F953E5782F9407C /* [CP] Check Pods Manifest.lock */,
+				8A5B314D20B683E4005EB50E /* Sources */,
+				8A5B314E20B683E4005EB50E /* Frameworks */,
+				8A5B314F20B683E4005EB50E /* Resources */,
+				F2CE491C3E1DAE628EADA029 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMSMapViewDelegateBugSmaple;
+			productName = GMSMapViewDelegateBugSmaple;
+			productReference = 8A5B315120B683E4005EB50E /* GMSMapViewDelegateBugSmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5B314920B683E4005EB50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Koji Furuya";
+				TargetAttributes = {
+					8A5B315020B683E4005EB50E = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A5B314C20B683E4005EB50E /* Build configuration list for PBXProject "GMSMapViewDelegateBugSmaple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A5B314820B683E4005EB50E;
+			productRefGroup = 8A5B315220B683E4005EB50E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5B315020B683E4005EB50E /* GMSMapViewDelegateBugSmaple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5B314F20B683E4005EB50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B315F20B683E9005EB50E /* LaunchScreen.storyboard in Resources */,
+				8A5B315C20B683E9005EB50E /* Assets.xcassets in Resources */,
+				8A5B315A20B683E4005EB50E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EB7F2AC2F953E5782F9407C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMSMapViewDelegateBugSmaple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CE491C3E1DAE628EADA029 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GMSMapViewDelegateBugSmaple/Pods-GMSMapViewDelegateBugSmaple-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMSMapViewDelegateBugSmaple/Pods-GMSMapViewDelegateBugSmaple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5B314D20B683E4005EB50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B315720B683E4005EB50E /* ViewController.swift in Sources */,
+				8AB787BB20B685FC0032F499 /* MapViewController.swift in Sources */,
+				8A5B315520B683E4005EB50E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A5B315820B683E4005EB50E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5B315920B683E4005EB50E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A5B315D20B683E9005EB50E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5B315E20B683E9005EB50E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A5B316120B683E9005EB50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A5B316220B683E9005EB50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A5B316420B683E9005EB50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CD47D12D59FF41DB456CBA /* Pods-GMSMapViewDelegateBugSmaple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMSMapViewDelegateBugSmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GMSMapViewDelegateBugSmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A5B316520B683E9005EB50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A0FB7D18C7C49E27D4501F /* Pods-GMSMapViewDelegateBugSmaple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMSMapViewDelegateBugSmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GMSMapViewDelegateBugSmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5B314C20B683E4005EB50E /* Build configuration list for PBXProject "GMSMapViewDelegateBugSmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B316120B683E9005EB50E /* Debug */,
+				8A5B316220B683E9005EB50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5B316320B683E9005EB50E /* Build configuration list for PBXNativeTarget "GMSMapViewDelegateBugSmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B316420B683E9005EB50E /* Debug */,
+				8A5B316520B683E9005EB50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5B314920B683E4005EB50E /* Project object */;
+}
