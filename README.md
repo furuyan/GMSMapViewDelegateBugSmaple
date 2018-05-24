@@ -12,14 +12,14 @@ This project is reproduce the bug.
 $ pod install
 ```
 
-1. Input your Google Maps SDK for iOS APIKey to the AppDelegate.swift
+2. Input your Google Maps SDK for iOS APIKey to the AppDelegate.swift
 
-1. Input correct Product Bundle Identifier to the Info.plist
+3. Input correct Product Bundle Identifier to the Info.plist
 
 ## How to reproduce
 1. Launch app
-1. Tap the 'Reproduce bug' button
-1. Watch the XCode console log.Perhaps there is a log like the one below.
+2. Tap the 'Reproduce bug' button
+3. Watch the XCode console log.Perhaps there is a log like the one below.
  - If it does not reproduce, try it several times
 
 `GMSMapViewDelegate(mapView:idleAtCameraPosition:)` is called on the way.
