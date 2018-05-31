@@ -1,7 +1,8 @@
-# GMSMapViewDelegateBugSmaple
-This project is reproduce the bug.
+# GMSMapViewDelegateBugSample
 
-## What bug
+This project reproduces a bug in Google Maps SDK for iOS.
+
+## What's the bug about?
 `GMSMapViewDelegate(mapView:idleAtCameraPosition:)` is called at strange timing when you call `animateWithCameraUpdate` multiple times in succession.
 
 `GMSMapViewDelegate(mapView:idleAtCameraPosition:)` is expected to be called at last.
@@ -12,15 +13,15 @@ This project is reproduce the bug.
 $ pod install
 ```
 
-2. Input your Google Maps SDK for iOS APIKey to the AppDelegate.swift
+2. Replace Google Maps SDK for iOS APIKey in the AppDelegate.swift with your own one.
 
-3. Input correct Product Bundle Identifier to the Info.plist
+3. Correct Product Bundle Identifier in the Info.plist as appropriate.
 
 ## How to reproduce
-1. Launch app
-2. Tap the 'Reproduce bug' button
-3. Watch the XCode console log.Perhaps there is a log like the one below.
- - If it does not reproduce, try it several times
+1. Launch the app.
+2. Tap the 'Reproduce bug' button.
+3. You will see log like below in the Xcode's console.
+ - If it does not reproduce the bug, retry several times.
 
 `GMSMapViewDelegate(mapView:idleAtCameraPosition:)` is called on the way.
 ```
